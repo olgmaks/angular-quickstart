@@ -1,6 +1,5 @@
 <h1>Angular 2 JS ImageList Component</h1>
 <div class="row" >
-    <p *ngIf="images.length > 2">There are many heroes!</p>
   <div class="col-sm-3 col-md-3" *ngFor="let imageModel of images">
     <div class="thumbnail">
       <img class="home-view-img" src="{{ imageModel.src }}" alt="{{ imageModel.alt }}">
@@ -10,5 +9,5 @@
         <p><a href="#" class="btn btn-primary" role="button">Open</a> <a href="#" class="btn btn-default" role="button">Quick Details</a></p>
       </div>
     </div>
-</div>
+  </div>
 </div>
